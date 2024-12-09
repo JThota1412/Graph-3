@@ -1,7 +1,14 @@
 import java.util.PriorityQueue;
 
 // Time Complexity :
-// Space Complexity :
+/*
+    edges/pipes = E, Vertices/houses = V
+    adding elements to queue/ list = O(V+E)
+    heapify = O(NLogN) => O((V+E)log(V+E))
+    union, find = O(NlogA(alpha)) => O((V+E)logA)
+    TC:  O(V+E) + O((V+E)log(V+E)) + O((V+E)logA) => O((V+E)log(V+E)) 
+*/
+// Space Complexity : O (V+E)
 // Did this code successfully run on Leetcode :
 // Three line explanation of solution in plain english
 
